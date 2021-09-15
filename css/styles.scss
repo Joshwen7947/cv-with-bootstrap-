@@ -4,6 +4,65 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+html {
+	scroll-behavior: smooth;
+}
 body {
 	font-family: 'Montserrat', sans-serif;
+}
+.masthead {
+	background-image: url(https://www.open.edu/openlearn/ocw/pluginfile.php/1317197/mod_resource/content/0/sc_1_olhp_786px.jpg);
+	background-position: center center;
+	background-size: cover;
+	padding-top: 300px;
+	color: white;
+	padding-bottom: 300px;
+	.mast-subtitle {
+		font-size: 24px;
+		font-family: 'Montserrat';
+		font-style: italic;
+	}
+	.mast-title {
+		font-size: 52px;
+		font-weight: 700;
+		font-family: 'Montserrat';
+	}
+	.mast-button {
+		background-color: orange;
+		border: none;
+		padding: 20px 20px;
+		color: white;
+		font-size: 20px;
+		font-weight: bold;
+		margin-top: 20px;
+	}
+	.mast-button:hover {
+		opacity: 0.9;
+	}
+}
+
+.card-container {
+	display: flex;
+	justify-content: space-between;
+	.card {
+		// padding: 25px;
+		margin: 50px auto;
+		text-align: center;
+		img {
+			height: 200px;
+		}
+	}
+}
+
+.contact-text {
+	text-align: center;
+}
+
+.contact-form {
+	padding: 20px;
+	margin: 20px;
+	border-radius: 10px;
+	border: 1px solid gray;
+	display: flex;
+	flex-direction: column;
 }

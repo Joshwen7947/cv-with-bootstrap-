@@ -14,9 +14,9 @@
 		<title>CV with Bootstrap</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#">Navbar</a>
+				<a class="navbar-brand" href="#">Josh's CV</a>
 				<button
 					class="navbar-toggler"
 					type="button"
@@ -31,13 +31,111 @@
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="navbar-nav">
 						<a class="nav-link active" aria-current="page" href="#">Home</a>
-						<a class="nav-link" href="#">Features</a>
-						<a class="nav-link" href="#">Pricing</a>
-						<a class="nav-link" href="#">Disabled</a>
+						<a class="nav-link" href="#">About</a>
+						<a class="nav-link" href="#">Portfolio</a>
+						<a class="nav-link" href="#">Skills</a>
 					</div>
 				</div>
 			</div>
 		</nav>
+		<div class="masthead">
+			<div class="container text-center">
+				<h3 class="mast-subtitle">
+					Welcome to <strong>Josh's</strong> Portfolio
+				</h3>
+				<h1 class="mast-title">Let's have a chat!</h1>
+				<a href="#contact">
+					<button type="button" class="btn btn-warning mast-button">
+						Tell me More
+					</button>
+				</a>
+			</div>
+		</div>
+		<div class="card-container">
+			<div class="card" style="width: 18rem">
+				<img
+					src="images/kualalumpur.jpeg"
+					class="card-img-top"
+					alt="kuala lumpur"
+				/>
+				<div class="card-body">
+					<h5 class="card-title">Kuala Lumpur</h5>
+					<h6>Malaysia</h6>
+					<p class="card-text">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+						vitae ratione at possimus nisi veniam ducimus, molestiae sequi
+						praesentium.
+					</p>
+					<a href="#" class="btn btn-primary">Visit Malaysia</a>
+				</div>
+			</div>
+			<div class="card" style="width: 18rem">
+				<img
+					src="images/chiangmai.jpeg"
+					class="card-img-top"
+					alt="Chiang Mai"
+				/>
+				<div class="card-body">
+					<h5 class="card-title">Chiang Mai</h5>
+					<h6>Thailand</h6>
+					<p class="card-text">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+						vitae ratione at possimus nisi veniam ducimus, molestiae sequi
+						praesentium.
+					</p>
+					<a href="#" class="btn btn-primary">Visit Thailand</a>
+				</div>
+			</div>
+			<div class="card" style="width: 18rem">
+				<img src="images/pokhara.jpeg" class="card-img-top" alt="pokhara" />
+				<div class="card-body">
+					<h5 class="card-title">Pokhara</h5>
+					<h6>Nepal</h6>
+					<p class="card-text">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+						vitae ratione at possimus nisi veniam ducimus, molestiae sequi
+						praesentium.
+					</p>
+					<a href="#" class="btn btn-primary">Visit Nepal</a>
+				</div>
+			</div>
+			<div class="card" style="width: 18rem">
+				<img src="images/france.jpeg" class="card-img-top" alt="pokhara" />
+				<div class="card-body">
+					<h5 class="card-title">Lyon</h5>
+					<h6>France</h6>
+					<p class="card-text">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+						vitae ratione at possimus nisi veniam ducimus, molestiae sequi
+						praesentium.
+					</p>
+					<a href="#" class="btn btn-primary">Visit France</a>
+				</div>
+			</div>
+		</div>
+		<div id="contact" class="container">
+			<h3 class="contact-text">Contact Me</h3>
+			<form class="contact-form">
+				<div class="form-group">
+					<label for="emailInput">Email address:</label>
+					<input
+						type="email"
+						class="form-control"
+						id="emailInput"
+						aria-describedby="emailHelp"
+						placeholder="Enter email"
+					/>
+					<small id="emailHelp" class="form-text text-muted"
+						>We'll never share your email with anyone else.</small
+					>
+				</div>
+				<div class="form-group">
+					<label for="message">Message:</label>
+					<textarea class="form-control" id="message" rows="3"></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
 		<script
 			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

@@ -67,6 +67,15 @@ body {
   height: 200px;
 }
 
+.card-container .card .btn {
+  background-color: orange;
+  border: none;
+}
+
+.card-container .card .btn:hover {
+  opacity: 0.8;
+}
+
 .contact-text {
   text-align: center;
 }
@@ -83,5 +92,32 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.contact-form button {
+  background-color: orange;
+  border: none;
+}
+
+.contact-form button:hover {
+  background-color: orange;
+  opacity: 0.8;
+}
+
+.about-img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.about-section {
+  padding-top: 200px;
+}
+
+.section-title {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=styles.css.map */

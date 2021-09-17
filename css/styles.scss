@@ -10,6 +10,7 @@ html {
 body {
 	font-family: 'Montserrat', sans-serif;
 }
+// //////////
 .masthead {
 	background-image: url(https://www.open.edu/openlearn/ocw/pluginfile.php/1317197/mod_resource/content/0/sc_1_olhp_786px.jpg);
 	background-position: center center;
@@ -51,6 +52,13 @@ body {
 		img {
 			height: 200px;
 		}
+		.btn {
+			background-color: orange;
+			border: none;
+		}
+		.btn:hover {
+			opacity: 0.8;
+		}
 	}
 }
 
@@ -65,4 +73,29 @@ body {
 	border: 1px solid gray;
 	display: flex;
 	flex-direction: column;
+	button {
+		background-color: orange;
+		border: none;
+	}
+	button:hover {
+		background-color: orange;
+		opacity: 0.8;
+	}
+}
+//
+.about-img {
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+
+.about-section {
+	padding-top: 200px;
+}
+
+.section-title {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 20px;
 }

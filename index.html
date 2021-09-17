@@ -17,17 +17,24 @@
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="#">Josh's CV</a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarNavAltMarkup"
-					aria-controls="navbarNavAltMarkup"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
+				<div class="navbar-toggler">
+					<button
+						class="btn dropdown-toggle"
+						type="button"
+						id="dropdownMenuButton"
+						data-toggle="dropdown"
+						aria-haspopup="true"
+						aria-expanded="false"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item" href="#">Home</a>
+						<a class="dropdown-item" href="#">About</a>
+						<a class="dropdown-item" href="#">Portfolio</a>
+						<a class="dropdown-item" href="#">Skills</a>
+					</div>
+				</div>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="navbar-nav">
 						<a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -52,64 +59,98 @@
 			</div>
 		</div>
 		<div class="card-container">
-			<div class="card" style="width: 18rem">
-				<img
-					src="images/kualalumpur.jpeg"
-					class="card-img-top"
-					alt="kuala lumpur"
-				/>
-				<div class="card-body">
-					<h5 class="card-title">Kuala Lumpur</h5>
-					<h6>Malaysia</h6>
-					<p class="card-text">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-						vitae ratione at possimus nisi veniam ducimus, molestiae sequi
-						praesentium.
-					</p>
-					<a href="#" class="btn btn-primary">Visit Malaysia</a>
+			<div class="col-lg-3 col-sm-12">
+				<div class="card" style="width: 18rem">
+					<img
+						src="images/kualalumpur.jpeg"
+						class="card-img-top"
+						alt="kuala lumpur"
+					/>
+					<div class="card-body">
+						<h5 class="card-title">Kuala Lumpur</h5>
+						<h6>Malaysia</h6>
+						<p class="card-text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+							vitae ratione at possimus nisi veniam ducimus, molestiae sequi
+							praesentium.
+						</p>
+						<a href="#" class="btn btn-primary">Visit Malaysia</a>
+					</div>
 				</div>
 			</div>
-			<div class="card" style="width: 18rem">
-				<img
-					src="images/chiangmai.jpeg"
-					class="card-img-top"
-					alt="Chiang Mai"
-				/>
-				<div class="card-body">
-					<h5 class="card-title">Chiang Mai</h5>
-					<h6>Thailand</h6>
-					<p class="card-text">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-						vitae ratione at possimus nisi veniam ducimus, molestiae sequi
-						praesentium.
-					</p>
-					<a href="#" class="btn btn-primary">Visit Thailand</a>
+			<div class="col-lg-3 col-sm-12">
+				<div class="card" style="width: 18rem">
+					<img
+						src="images/chiangmai.jpeg"
+						class="card-img-top"
+						alt="Chiang Mai"
+					/>
+					<div class="card-body">
+						<h5 class="card-title">Chiang Mai</h5>
+						<h6>Thailand</h6>
+						<p class="card-text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+							vitae ratione at possimus nisi veniam ducimus, molestiae sequi
+							praesentium.
+						</p>
+						<a href="#" class="btn btn-primary">Visit Thailand</a>
+					</div>
 				</div>
 			</div>
-			<div class="card" style="width: 18rem">
-				<img src="images/pokhara.jpeg" class="card-img-top" alt="pokhara" />
-				<div class="card-body">
-					<h5 class="card-title">Pokhara</h5>
-					<h6>Nepal</h6>
-					<p class="card-text">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-						vitae ratione at possimus nisi veniam ducimus, molestiae sequi
-						praesentium.
-					</p>
-					<a href="#" class="btn btn-primary">Visit Nepal</a>
+			<div class="col-lg-3 col-sm-12">
+				<div class="card" style="width: 18rem">
+					<img src="images/pokhara.jpeg" class="card-img-top" alt="pokhara" />
+					<div class="card-body">
+						<h5 class="card-title">Pokhara</h5>
+						<h6>Nepal</h6>
+						<p class="card-text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+							vitae ratione at possimus nisi veniam ducimus, molestiae sequi
+							praesentium.
+						</p>
+						<a href="#" class="btn btn-primary">Visit Nepal</a>
+					</div>
 				</div>
 			</div>
-			<div class="card" style="width: 18rem">
-				<img src="images/france.jpeg" class="card-img-top" alt="pokhara" />
-				<div class="card-body">
-					<h5 class="card-title">Lyon</h5>
-					<h6>France</h6>
-					<p class="card-text">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-						vitae ratione at possimus nisi veniam ducimus, molestiae sequi
-						praesentium.
-					</p>
-					<a href="#" class="btn btn-primary">Visit France</a>
+			<div class="col-lg-3 col-sm-12">
+				<div class="card" style="width: 18rem">
+					<img src="images/france.jpeg" class="card-img-top" alt="pokhara" />
+					<div class="card-body">
+						<h5 class="card-title">Lyon</h5>
+						<h6>France</h6>
+						<p class="card-text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+							vitae ratione at possimus nisi veniam ducimus, molestiae sequi
+							praesentium.
+						</p>
+						<a href="#" class="btn btn-primary">Visit France</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 p-5">
+						<img src="images/saltflats.jpeg" class="about-img" />
+					</div>
+					<div class="col-lg-6 p-5">
+						<h1 class="section-heading">
+							Full time <u>Expat</u> & Full Stack <u>Developer</u>
+						</h1>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+							aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam
+							exercitationem, ea animi blanditiis recusandae! Ratione voluptatum
+							molestiae adipisci, beatae obcaecati.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+							aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam
+							exercitationem, ea animi blanditiis recusandae! Ratione voluptatum
+							molestiae adipisci, beatae obcaecati.
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
